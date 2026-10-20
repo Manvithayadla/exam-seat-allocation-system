@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# React
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local database backups containing real data
+database/*backup*.sql
